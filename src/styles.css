@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-control {
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-input {
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0.5px solid #b8b8b8;
+  /* background-color: #e8efff; */
+  outline-color: #303f80;
+}
+.form-label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #737373;
+  font-size: 0.9rem;
+  pointer-events: none;
+  transition: top 0.1s;
+  transition: font-size 0.1s;
+}
+
+.form-label-active {
+  position: absolute;
+  left: 15px;
+  color: #303f80;
+  font-size: 0.8rem;
+  top: -6px;
+  background-color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
